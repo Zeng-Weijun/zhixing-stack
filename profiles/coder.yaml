@@ -1,0 +1,30 @@
+profile: agenesis-coder
+version: 0.1
+
+env:
+  provider: agenesis-env
+  task_family: software_engineering
+
+runtime:
+  provider: agenesis-runtime
+  tools:
+    - search
+    - read
+    - edit
+    - bash
+    - run_tests
+    - submit
+
+data:
+  provider: agenesis-data
+
+train:
+  provider: agenesis-train
+  backend: slime
+
+bench:
+  provider: agenesis-bench
+  suites:
+    - swebench_verified
+    - terminal_bench
+
