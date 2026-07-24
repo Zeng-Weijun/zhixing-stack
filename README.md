@@ -112,7 +112,7 @@ The first product profile is **Zhixing Coder**. It combines repository-to-enviro
 
 ## Status
 
-The repositories are being bootstrapped as public alpha foundations. The public working name is now Zhixing Stack; the earlier Agenesis name was only a temporary scaffold label. APIs and schema versions are expected to evolve; production guarantees should not be inferred from this initial scaffold.
+The repositories are being bootstrapped as public alpha foundations under the Zhixing Stack working name. APIs and schema versions are expected to evolve; production guarantees should not be inferred from this initial scaffold.
 
 ## Contributing
 
