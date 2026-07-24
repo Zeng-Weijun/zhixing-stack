@@ -1,12 +1,12 @@
-profile: agenesis-coder
+profile: zhixing-coder
 version: 0.1
 
 env:
-  provider: agenesis-env
+  provider: zhixing-env
   task_family: software_engineering
 
 runtime:
-  provider: agenesis-runtime
+  provider: zhixing-runtime
   tools:
     - search
     - read
@@ -16,15 +16,14 @@ runtime:
     - submit
 
 data:
-  provider: agenesis-data
+  provider: zhixing-data
 
 train:
-  provider: agenesis-train
+  provider: zhixing-train
   backend: slime
 
 bench:
-  provider: agenesis-bench
+  provider: zhixing-bench
   suites:
     - swebench_verified
     - terminal_bench
-
